@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniyal Javadia's PORTFOLIO</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/1259eeb239.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>        
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class=" fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Daniyal Javadia</span> <br>Dhera from Pakistan</h1>
+      </div>
+    </div>
+
+  </div>
+  <!-- about -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/DaniyalJavadia.JPG">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Hello! I'm Daniyal Javadia, a passionate Full Stack Web Developer with over 2 years of working experience. A strong desire to create both visually stunning and highly functional web applications. My expertise includes a wide range of technologies such as HTML, CSS, JavaScript, jQuery, Bootstrap, PHP, Laravel, and SQL/MySQL databases. These skills empower me to develop seamless, intuitive, and scalable web solutions that provide great user experiences.
+<br><br>
+            In addition to my technical proficiency, I have a solid foundation in UI/UX design, leveraging tools like Figma and Canva to bring user-centered designs to life. I thrive on delivering solutions that exceed client expectations, blending creativity with functionality to leave a lasting impact.
+            <br><br>
+            If you're looking for a dedicated full stack developer or someone to elevate your front-end projects, I'd love to connect and discuss how we can work together to bring your vision to life. Let’s collaborate to create innovative, impactful web experiences!
+<br><br>
+            Thank you for taking the time to get to know me.
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Frontend Development: </span><br>Crafting responsive and interactive web interfaces that elevate user experiences.</li>
+              <li><span>Backend Development:</span><br>Building robust server-side solutions to ensure seamless functionality and scalability.</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023-2026</span><br>ADSE (Software-Engineering) Diploma from Aptech Computer Education Garden,Karachi(In-Process)</li>
+                <li><span>2021</span><br>The Smart School Garden West Campus Matriculation, Computer Science</li>
+              <li><span>2023</span><br>Government College of Commerce & Economics </li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>TechnoCom Development</span></li>
+              <li><span>.Net Core Developer</span></li>
+        <p>Currently working as a .NET Developer at Technocom Development,
+          where I am responsible for making necessary changes and updates to
+          cloud-based software applicationscloud-based software applications based on guidance from senior
+          developers. My role involves enhancing the functionality, performance,
+          and security of cloud-based applications, ensuring they align with project
+          requirements.</p>
+            
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- services -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Frontend Development: </h2>
+          <p>I specialize in creating visually appealing, responsive, and interactive web interfaces. By using modern technologies like HTML, CSS, JavaScript, and frameworks, I ensure seamless user experiences across all devices.</p>
+        
+        </div>
+        <div>
+          <i class="fa-solid fa fa-server"></i>
+          <h2>Backend Development:</h2>
+          <p>From database design to API integration, I develop scalable and secure server-side solutions. Whether it's handling complex data or building robust architectures, my backend expertise ensures your web applications run smoothly.</p>
+       
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <!-- portfolio -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="worklist">
+        <div class="work">
+          <img src="images/image2.png" alt="">
+          <div class="layer">
+            <h3>FreshShop (E-Commerce Website)</h3>
+            <p>Technologies Used: ASP.NET Core MVC,SQL Server</p>
+            <p>FreshShop is an e-commerce platform enabling users to browse products, add to cart, and complete secure purchases. It features product search, user authentication, and an admin panel for managing inventory.
+            </p>
+            <a href="/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/E-VaccineMangment.png" alt="">
+          <div class="layer">
+            <h3>E-Vaccination Booking System</h3>
+            <p>Technologies Used: Laravel,MySql</p>
+            <p>Created an E-Vaccination Booking system where users can register and book vaccination slots online. This
+            project involved developing both the front-end and back-end using Laravel, with features like user
+            registration, login, and booking management</p>
+            <a href="/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        
+
+      </div>
+      <div class="worklist">
+        <div class="work">
+          <img src="images/admindashboard.png" alt="">
+          <div class="layer">
+            <h3>Admin Dashboard</h3>
+            <p>Technologies Used: Php,MySql</p>
+            <p>Built an admin dashboard to manage users, view reports, and monitor system activity. The dashboard
+              features a CRUD (Create, Read, Update, Delete) system for managing data. Used PHP for backend
+              development to ensure smooth functionality and proper data handling</p>
+            <a href="/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/aptechclone.png" alt="">
+          <div class="layer">
+            <h3>Student Portal Clone</h3>
+            <p>Technologies Used: Laravel,MySql</p>
+            <p>A Laravel-based Student Portal for managing attendance, marks, profiles, and complaints with real-time updates and database integration.</p>
+            <a href="/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        
+
+      </div>
+      <div class="worklist">
+        <div class="work">
+          <img src="images/NailArtEPorject.png" alt="">
+          <div class="layer">
+            <h3>Nail Art</h3>
+            <p>Technologies Used: Html,Css </p>
+
+              <p>
+                A visually appealing Nail Art Showcase built using HTML and CSS. This project features a gallery-style layout displaying various nail art designs, focusing on responsive design principles to ensure a smooth viewing experience across different devices.
+              </p>
+            <a href="https://soundwalker-landing-page.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/image.png" alt="">
+          <div class="layer">
+            <h3>Simple Counter </h3>
+            <p>Technologies Used: Angular </p>
+
+            <p>
+              A simple counter application built using Angular. This project allows users to increment and decrement a counter with a reset functionality, showcasing the core features of Angular like two-way data binding and component-based architecture.
+            </p>
+            <a href="https://next-wave-agency.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        
+
+      </div>
+    
+    </div>
+  </div>
+  <!-- contact -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p> <i class="fa-solid fa-paper-plane"></i>daniyaljavadiaworks@gmail.com</p>
+          <p> <i class="fa-solid fa-square-phone"></i>+923323782768</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/daniyal-javadia-849aa832a/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/923323782768"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+          <a href="DaniyalJavadia.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form >
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message"  rows="6"  placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Sumbit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Daniyal Javadia. All Rights Reserved 2024 <i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+  <script>
+    let tablinks = document.getElementsByClassName("tab-links");
+    let tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
