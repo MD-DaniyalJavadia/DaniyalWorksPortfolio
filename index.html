@@ -35,7 +35,8 @@
     <div class="container">
       <div class="row">
         <div class="about-col-1">
-          <img src="images/DaniyalJavadia.JPG">
+          <img src="images/DaniyalJavadia.JPG" onerror="this.onerror=null; this.src='images/profile.jpg';this.style.height='400px';">
+
         </div>
         <div class="about-col-2">
           <h1 class="sub-title">About Me</h1>
@@ -301,8 +302,6 @@
       document.getElementById(tabname).classList.add("active-tab");
 
     }
-  </script>
-  <script>
     var sidemenu = document.getElementById("sidemenu");
     function openmenu(){
       sidemenu.style.right = "0";
@@ -338,6 +337,17 @@
         }
 
     });
+    function handleError(img) {
+    if (someCondition()) {
+      img.src = 'images/DaniyalJavadia.JPG';  
+    } else {
+      img.src = 'images/profile.jpg';
+    }
+  }
+
+  function someCondition() {
+    return Math.random() > 0.5;  
+  }
   </script>
 </body>
 
