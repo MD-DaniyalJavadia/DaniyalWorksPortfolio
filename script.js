@@ -19,50 +19,50 @@
       sidemenu.style.right = "-200px";
     }
 
-    // Disable right-click
-    document.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
-    });
+  //   // Disable right-click
+  //   document.addEventListener('contextmenu', function(e) {
+  //       e.preventDefault();
+  //   });
 
-    // Disable F12 and Ctrl+Shift+C to prevent opening developer tools
-    document.addEventListener('keydown', function(e) {
-        // Disable F12
-        if (e.key === 'F12') {
-            e.preventDefault();
-        }
+  //   // Disable F12 and Ctrl+Shift+C to prevent opening developer tools
+  //   document.addEventListener('keydown', function(e) {
+  //       // Disable F12
+  //       if (e.key === 'F12') {
+  //           e.preventDefault();
+  //       }
 
-        // Disable Ctrl+Shift+C
-        if (e.ctrlKey && e.shiftKey && e.key === 'C') {
-            e.preventDefault();
-        }
+  //       // Disable Ctrl+Shift+C
+  //       if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+  //           e.preventDefault();
+  //       }
 
-	//Disable Ctrl+Shift+I
-        if (e.ctrlKey && e.shiftKey && e.key === 'I') {
-            e.preventDefault();
-        }
+	// //Disable Ctrl+Shift+I
+  //       if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+  //           e.preventDefault();
+  //       }
 
 	
 
-	//Disable Ctrl+Shift+S
-        if (e.ctrlKey && e.shiftKey && e.key === 'S') {
-            e.preventDefault();
-        }
+	// //Disable Ctrl+Shift+S
+  //       if (e.ctrlKey && e.shiftKey && e.key === 'S') {
+  //           e.preventDefault();
+  //       }
 
 
-	  //Disable Ctrl+S
-        if (e.ctrlKey && e.key === 's') {
-            e.preventDefault();
-        }
-        //Disable Ctrl+U
-        if (e.ctrlKey && e.key === 'u') {
-            e.preventDefault();
-        }
-      // Disable Ctrl+U
-      if (e.ctrlKey && e.key.toLowerCase() === 'u') {
-            e.preventDefault();
-        }
+	//   //Disable Ctrl+S
+  //       if (e.ctrlKey && e.key === 's') {
+  //           e.preventDefault();
+  //       }
+  //       //Disable Ctrl+U
+  //       if (e.ctrlKey && e.key === 'u') {
+  //           e.preventDefault();
+  //       }
+  //     // Disable Ctrl+U
+  //     if (e.ctrlKey && e.key.toLowerCase() === 'u') {
+  //           e.preventDefault();
+  //       }
 
-    });
+  //   });
     function handleError(img) {
     if (someCondition()) {
       img.src = 'images/DaniyalJavadia.JPG';  
