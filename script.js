@@ -74,3 +74,5 @@
   function someCondition() {
     return Math.random() > 0.5;  
   }
+
+  console.log("Hey there! Thanks for checking out my code. Let's build something awesome together!");
